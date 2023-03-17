@@ -1,0 +1,81 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 9,
+        "name": "Verify the given login functionality of username and password.",
+        "description": "",
+        "id": "verify-the-login-funtionality.;verify-the-given-login-functionality-of-username-and-password.;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 23638931800,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "User is on facebook page.",
+            "match": {
+              "location": "Optionstepdefinition.user_is_on_facebook_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1385490200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User enters\"User1\"and\"test123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"User1\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"test123\"",
+                  "offset": 21
+                }
+              ],
+              "location": "Optionstepdefinition.user_enters_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 291508100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User click the login button.",
+            "match": {
+              "location": "Optionstepdefinition.user_click_the_login_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 415200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Error page is displayed.",
+            "match": {
+              "location": "Optionstepdefinition.error_page_is_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Verify the login Funtionality.",
+    "description": "",
+    "id": "verify-the-login-funtionality.",
+    "keyword": "Feature",
+    "uri": "C:/Users/Admin/Desktop/New folder/cucuminstall/src/test/resources/feature files/face.feature",
+    "tags": []
+  }
+]
